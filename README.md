@@ -89,7 +89,7 @@ print(wc.countries())
 ['Afghanistan', 'Aland Islands', 'Albania', 'Algeria', 'American Samoa', 'Andorra', 'Angola', 'Anguilla', 'Antarctica', 'Antigua And Barbuda', 'Argentina', 'Armenia', 'Aruba', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas The',  'Vietnam', 'Virgin Islands (British)', 'Virgin Islands (US)', 'Wallis And Futuna Islands', 'Western Sahara', 'Yemen', 'Zambia', 'Zimbabwe'] 
 ```
 
-### .get_country_info(name)
+### .get_country_info()
 Returns complete information about a specific country by its name
 
 ```python
@@ -170,7 +170,7 @@ print(wc.countries_in_continents())
 {'Asia': ['Afghanistan', 'Armenia', 'Azerbaijan', 'Bahrain', 'Bangladesh', 'Bhutan', 'Brunei', 'Cambodia', 'China', 'Cyprus', 'East Timor', 'Georgia', 'Hong Kong', 'India', 'Indonesia', 'Iran', 'Iraq', 'Israel', 'Japan', 'Jordan', 'Kazakhstan', 'Kuwait', 'Kyrgyzstan', 'Laos', 'Lebanon',   'Tajikistan', 'Thailand', 'Turkey', 'Turkmenistan', 'United Arab Emirates', 'Uzbekistan', 'Vietnam', 'Yemen']}
 ```
 
-### .search_by_continent(name)
+### .search_by_continent()
 Returns all countries in a specific continent
 
 ```python
@@ -209,7 +209,7 @@ print(wc.countries_in_region())
 {'Antarctica': ['Antarctica', 'Heard Island and McDonald Islands', 'South Georgia and the South Sandwich Islands'], 'Eastern Europe': ['Belarus', 'Hungary', 'Moldova', 'Poland', 'Romania', 'Ukraine'], 'Southern Europe': ['Albania', 'Andorra',   'Italy', 'North Macedonia', 'Yugoslavia'], 'Western Europe': ['Austria', 'Belgium', 'France', 'Germany', 'Liechtenstein',  'Switzerland'], 'North America': ['Bermuda',  'United States']}
 ```
 
-### .search_by_region(name)
+### .search_by_region()
 Returns all countries in a specific region
 
 ```python
@@ -235,7 +235,7 @@ print(wc.languages())
 {'Afghanistan': ['ps', 'uz', 'tk'], 'Aland Islands': ['sv'], 'Albania': ['sq'], 'Algeria': ['ar'], 'American Samoa': ['en', 'sm'], 'Andorra': ['ca'], 'Angola': ['pt'], 'Anguilla': ['en'], 'Antarctica': [], 'Antigua And Barbuda': ['en'], 'Argentina': ['es', 'gn'], 'Armenia': ['hy', 'ru'], 'Aruba': ['nl', 'pa'], 'Australia': ['en']}
 ```
 
-### .get_languages_by_country(name)
+### .get_languages_by_country()
 Returns language codes for a specific country
 
 ```python
@@ -248,7 +248,7 @@ print(wc.get_languages_by_country('Nauru'))
 ['en', 'na']
 ```
 
-### .search_by_language(language_code)
+### .search_by_language()
 Returns all countries that speak a specific language code
 
 ```python
